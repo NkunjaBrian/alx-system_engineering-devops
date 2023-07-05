@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -pd *[[:alnum:]]* | sort -d -f --version-sort | awk 'BEGIN{ORS=","} {print} END{print "\n"}'
+ls -xamp
