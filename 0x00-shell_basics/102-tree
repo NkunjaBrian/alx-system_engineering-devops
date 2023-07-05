@@ -1,2 +1,2 @@
 #!/bin/bash
-os.makedirs("welcome/to/school")
+import os; os.makedirs("welcome/to/school")
